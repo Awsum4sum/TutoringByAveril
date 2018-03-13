@@ -1,4 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
-.fixedHeader {
-    position: fixed;
+body, html {
+    margin: 0;
+    background-image: url("/assets/Background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Blue colour range
+007BFF
+006CDF
+005CBF
+004D9F
+003D80
+002E60
+001F40
+000F20 */
+
+.Textbox {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: white;
+    color: #666;
+}
+
+.container {
+    margin-top:10px;
+    /* background-color: #857AE3; */
+    height: calc(100% - 56px);
+    max-width: 1500px !important;
 }

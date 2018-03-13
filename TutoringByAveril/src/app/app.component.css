@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Blue colour range
+007BFF
+006CDF
+005CBF
+004D9F
+003D80
+002E60
+001F40
+000F20 */
+.fixedHeader {
+    position: fixed;
+}
+
+.navbar > .navbar-brand {
+    color: white;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.bg-primary {
+    background-color: #005CBF!important;
+}
